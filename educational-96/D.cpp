@@ -94,9 +94,9 @@ int main(){
     while(t--) solve();
     auto stop1 = high_resolution_clock::now();
 	auto duration = duration_cast<microseconds>(stop1 - start1);
-    #ifndef ONLINE_JUDGE
-		cerr << "Time: " << duration.count() / 1000.0 << endl;
-	    cout<<duration.count()/1000.0<<endl;
-    #endif
+    // #ifndef ONLINE_JUDGE
+	// 	cerr << "Time: " << duration.count() / 1000.0 << endl;
+	//     cout<<duration.count()/1000.0<<endl;
+    // #endif
     return 0;
 }
